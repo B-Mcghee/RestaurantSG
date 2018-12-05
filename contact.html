@@ -2,13 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Burger Heaven</title>
+    <title>Sandwich Heaven</title>
   </head>
   <body>
 
-      <h3 style="margin-left: 10px">Contact Us</h3>
+      <h3 style="margin-left: 0">Contact Us</h3>
       <hr>
-      <h1 style="text-align: center">Burger Heaven</h1>
+      <h1 style="text-align: center">Sandwich Heaven</h1>
       <nav>
         <hr>
         <ul >
@@ -18,35 +18,42 @@
         </ul>
         <hr>
       </nav>
-      <section >
+      <section style="text-align:center" >
 
 
-        <form class="" action="index.html" method="post">
-            <label>Name:</label><input type="text"><br>
-            <label>Email:</label><input type="email"><br>
-            <label>Phone:</label><input type="text"><br>
+        <form class="" action="index.html" method="post" style="display:inline-block; text-align:right">
+            <label>Name:</label><input type="text" style="width:150px; margin-bottom:20px"><br>
+            <label>Email:</label><input type="email" style="width:150px; margin-bottom:20px"><br>
+            <label>Phone:</label><input type="text" style="width:150px; margin-bottom:20px"><br>
             <label>Reason for Inquiry:</label>
-              <select>
-                <option value="">--Items in drop-down:</option>
+              <select style="width:150px; margin-bottom:20px">
+
                 <option value="catering">Catering</option>
                 <option value="Private Party">Private Party</option>
                 <option value="feedback">Feedback</option>
                 <option value="Other">Other</option>
               </select><br>
-            <label>Additional Information:<input type="<textarea name="name" rows="8" cols="80"> </label><br>
-            <label>Have you been to this restaurant></label>
-            <input type="radio" name="appearance" value="YES">Yes
-            <input type="radio" name="appearance" value="NO">No <br>
+            <label>Additional Information:<input type="<textarea name="name" style="width:150px;margin-bottom:20px" rows="8" cols="80" > </label><br>
+            <label>Have you been to this restaurant</label>
+            <input type="radio" name="appearance" value="YES" style="margin-bottom:20px">Yes
+            <input type="radio" name="appearance" value="NO" checked="checked">No <br>
             <label>Best days to contact you</label>
             <input type="checkbox">M
             <input type="checkbox">T
             <input type="checkbox">W
             <input type="checkbox">Th
-            <input type="checkbox">F
+            <input type="checkbox"><br>
+            <br>
+            <input type="submit" name="Send Request" value="submit" style="margin-right:40%;">
         </form>
       </section>
+      <hr>
+      <footer style="text-align: center">
+        <p>123 Main Street, Louisville, KY, 40210</p>
+        <p>(502)911-2323</p>
+      </footer>
 
 
 
-  </body>
-</html>
+    </body>
+    </html>
