@@ -3,57 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>Sandwich Heaven</title>
+    <link rel="stylesheet" href="styles/restaurantStyles.css">
+
+    <style>
+      label{
+        font-weight: bold;
+      }
+    </style>
+
   </head>
   <body>
 
-      <h3 style="margin-left: 0">Contact Us</h3>
-      <hr>
-      <h1 style="text-align: center">Sandwich Heaven</h1>
-      <nav>
-        <hr>
-        <ul >
-          <li style = "display:inline-block; margin-right: 25px"><a href="index.html">Home</a></li>
-          <li style = "display:inline-block; margin-right: 25px"><a href="menu.html">Menu</a></li>
-          <li style = "display:inline-block; margin-right: 25px"><a href="contact.html">Contact Us</a></li>
-        </ul>
-        <hr>
-      </nav>
-      <section style="text-align:center" >
+    <p class="top-name">Contact Us</p>
+
+    <header>
+      <h1>Sandwich Heaven</h1>
+    </header>
+    <nav>
 
 
-        <form class="" action="index.html" method="post" style="display:inline-block; text-align:right">
-            <label>Name:</label><input type="text" style="width:150px; margin-bottom:20px"><br>
-            <label>Email:</label><input type="email" style="width:150px; margin-bottom:20px"><br>
-            <label>Phone:</label><input type="text" style="width:150px; margin-bottom:20px"><br>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+
+    </nav>
+      <section class="container">
+
+
+        <form class="" action="index.html" method="post" >
+            <label>Name:</label><input type="text"><br>
+            <label>Email:</label><input type="email"><br>
+            <label>Phone:</label><input type="text" ><br>
             <label>Reason for Inquiry:</label>
-              <select style="width:150px; margin-bottom:20px">
+              <select>
 
                 <option value="catering">Catering</option>
                 <option value="Private Party">Private Party</option>
                 <option value="feedback">Feedback</option>
                 <option value="Other">Other</option>
               </select><br>
-            <label>Additional Information:<input type="<textarea name="name" style="width:150px;margin-bottom:20px" rows="8" cols="80" > </label><br>
+            <label>Additional Information:<br><input type="textarea" name="name" rows="8" cols="80" > </label><br>
             <label>Have you been to this restaurant</label>
-            <input type="radio" name="appearance" value="YES" style="margin-bottom:20px">Yes
+            <input type="radio" name="appearance" value="YES">Yes
             <input type="radio" name="appearance" value="NO" checked="checked">No <br>
-            <label>Best days to contact you</label>
-            <input type="checkbox">M
-            <input type="checkbox">T
-            <input type="checkbox">W
-            <input type="checkbox">Th
-            <input type="checkbox"><br>
+            <label>Best days to contact you:</label>
+            <label>M</label><input type="checkbox">
+            <label>T</label><input type="checkbox">
+            <label>W</label><input type="checkbox">
+            <label>Th</label><input type="checkbox">
+            <label>F</label><input type="checkbox"> <br>
             <br>
-            <input type="submit" name="Send Request" value="submit" style="margin-right:40%;">
+            <input type="submit" name="Send Request" value="Submit">
         </form>
       </section>
-      <hr>
-      <footer style="text-align: center">
-        <p>123 Main Street, Louisville, KY, 40210</p>
-        <p>(502)911-2323</p>
+
+      <footer>
+        <div class="footer-content">
+          <p>123 Main Street, Louisville, KY, 40210</p>
+          <p>(502)911-2323</p>
+        </div>
       </footer>
-
-
 
     </body>
     </html>
